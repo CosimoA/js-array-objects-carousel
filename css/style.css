@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+.container{
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.slider{
+    width: 100%;
+}
+
+
+.img-container{
+    max-width: 800px;
+    height: 356px;
+    position: relative;
+}
+
+.item{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ITEMS */
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 40%;
+}
+
+.next{
+    position: absolute;
+    bottom: 84%;
+    left: 1%;
+}
+
+.prev{
+    position: absolute;
+    top: 84%;
+    left: 1%;
+}
+
+i{
+    font-size: 50px;
+    color: lightgray;
+}
+
+/* TOOLS */
+
+.active{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
